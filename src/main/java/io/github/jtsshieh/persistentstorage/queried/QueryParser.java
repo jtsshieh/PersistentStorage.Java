@@ -3,12 +3,11 @@ package io.github.jtsshieh.persistentstorage.queried;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 
 public class QueryParser
 {
-    static <T> Object ParseQuery(String query, Object rootObject, T value, int index) throws NoSuchFieldException, IllegalAccessException
+    static <T> Object parseQuery(String query, Object rootObject, T value, int index) throws NoSuchFieldException, IllegalAccessException
     {
         // Split the query into parts
         List<String> queryParts = new ArrayList<>(Arrays.asList(query.split("\\.")));
@@ -105,38 +104,38 @@ public class QueryParser
         return currentObject;
     }
 
-    public static <T> T GetValue(String query, Object rootObject) throws NoSuchFieldException, IllegalAccessException
+    public static <T> T getValue(String query, Object rootObject) throws NoSuchFieldException, IllegalAccessException
     {
-        return (T)ParseQuery(query, rootObject, null, -1);
+        return (T) parseQuery(query, rootObject, null, -1);
     }
 
-    public static <T> Object SetValue(String query, Object rootObject, T value) throws NoSuchFieldException, IllegalAccessException
+    public static <T> Object setValue(String query, Object rootObject, T value) throws NoSuchFieldException, IllegalAccessException
     {
-        return ParseQuery(query, rootObject, value, -1);
+        return parseQuery(query, rootObject, value, -1);
     }
 
-    public static <T> Object InsertArray(String query, Object rootObject, T item, int index)throws NoSuchFieldException, IllegalAccessException
+    public static <T> Object insertArray(String query, Object rootObject, T item, int index)throws NoSuchFieldException, IllegalAccessException
     {
-        return ParseQuery(query, rootObject, item, index);
+        return parseQuery(query, rootObject, item, index);
     }
 
-    public static <T> Object PushArray(String query, Object rootObject, T item) throws NoSuchFieldException, IllegalAccessException
+    public static <T> Object pushArray(String query, Object rootObject, T item) throws NoSuchFieldException, IllegalAccessException
     {
-        return ParseQuery(query, rootObject, item, -2);
+        return parseQuery(query, rootObject, item, -2);
     }
 
-    public static <T> Object RemoveAtArray(String query, Object rootObject, int index) throws NoSuchFieldException, IllegalAccessException
+    public static <T> Object removeAtArray(String query, Object rootObject, int index) throws NoSuchFieldException, IllegalAccessException
     {
-        List<T> list = QueryParser.GetValue(query, rootObject);
+        List<T> list = QueryParser.getValue(query, rootObject);
         list.remove(index);
-        return SetValue(query, rootObject, list);
+        return setValue(query, rootObject, list);
     }
 
-    public static <T> Object RemoveArray(String query, Object rootObject, T item) throws NoSuchFieldException, IllegalAccessException
+    public static <T> Object removeArray(String query, Object rootObject, T item) throws NoSuchFieldException, IllegalAccessException
     {
-        List<T> list = QueryParser.GetValue(query, rootObject);
+        List<T> list = QueryParser.getValue(query, rootObject);
         list.remove(item);
-        return SetValue(query, rootObject, list);
+        return setValue(query, rootObject, list);
     }
 
 }
