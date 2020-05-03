@@ -35,7 +35,7 @@ public interface CachedStorageMethod<T> extends StorageMethod<T>
     void updateCache();
 
     /**
-     * Initialize the Cached StorageMethod with Properties
+     * Initializes the Cached StorageMethod with Properties
      *
      * @param properties    The Properties object to pass in
      * @see                 Properties

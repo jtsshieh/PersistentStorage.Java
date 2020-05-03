@@ -6,12 +6,12 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * A parser to parse queried
+ * A parser to parse queries
  */
 public class QueryParser
 {
     /**
-     * Parse a query and then get/add/insert an item
+     * Parses a query and then gets/adds/inserts an item
      *
      * @param query         The query
      * @param rootObject    The object to search/perform the operation on
@@ -120,7 +120,7 @@ public class QueryParser
     }
 
     /**
-     * Get a value that is filtered using a query
+     * Gets a value that is filtered using a query
      *
      * @param query         The query
      * @param rootObject    The object to search for the result in
@@ -135,7 +135,7 @@ public class QueryParser
     }
 
     /**
-     * Set a value that is filtered using a query
+     * Sets a value that is filtered using a query
      *
      * @param query         The query
      * @param rootObject    The object to set the value on
@@ -168,7 +168,7 @@ public class QueryParser
     }
 
     /**
-     * Push an item into an array
+     * Pushes an item into an array
      *
      * @param query         The query selecting an array
      * @param rootObject    The object to set the value on
@@ -184,7 +184,7 @@ public class QueryParser
     }
 
     /**
-     * Remove an item from an array by its index
+     * Removes an item from an array by its index
      *
      * @param query         The query selecting an array
      * @param rootObject    The object to remove the value on
@@ -202,7 +202,7 @@ public class QueryParser
     }
 
     /**
-     * Remove an item from an array
+     * Removes an item from an array
      *
      * @param query         The query selecting an array
      * @param rootObject    The object to remove the value on

@@ -16,7 +16,7 @@ public class CachedStorageController<T> extends PersistentStorage<T>
     public T currentCache;
 
     /**
-     * Initialize the Selected Cached Persistent Storage Method
+     * Initializes the Selected Cached Persistent Storage Method
      *
      * @return  A boolean of whether the operation completed successfully or failed
      */
@@ -30,7 +30,7 @@ public class CachedStorageController<T> extends PersistentStorage<T>
     }
 
     /**
-     * Initialize the Selected Cached Persistent Storage Method with Properties
+     * Initializes the Selected Cached Persistent Storage Method with Properties
      *
      * @param properties        The Properties object to pass in
      * @see                     Properties
@@ -46,7 +46,7 @@ public class CachedStorageController<T> extends PersistentStorage<T>
     }
 
     /**
-     * Save the Cache into the Persistent Storage
+     * Saves the Cache into the Persistent Storage
      */
     public void saveState()
     {
@@ -55,7 +55,7 @@ public class CachedStorageController<T> extends PersistentStorage<T>
     }
 
     /**
-     * Update the Cache with the contents of the Persistent Storage
+     * Updates the Cache with the contents of the Persistent Storage
      */
     public void updateCache()
     {
@@ -64,7 +64,7 @@ public class CachedStorageController<T> extends PersistentStorage<T>
     }
 
     /**
-     * Save and Update the Cache
+     * Saves and Update the Cache
      */
     public void SaveUpdate()
     {

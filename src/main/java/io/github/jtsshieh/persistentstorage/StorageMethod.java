@@ -7,13 +7,13 @@ package io.github.jtsshieh.persistentstorage;
 public interface StorageMethod<T>
 {
     /**
-     * Get the name of the storage method
+     * Gets the name of the storage method
      * @return The name of the storage method
      */
     String getName();
 
     /**
-     * Initialize the storage method
+     * Initializes the storage method
      */
     void initialize();
 }

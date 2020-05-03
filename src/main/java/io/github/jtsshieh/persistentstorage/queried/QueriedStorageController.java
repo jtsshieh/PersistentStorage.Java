@@ -11,7 +11,7 @@ import io.github.jtsshieh.persistentstorage.Properties;
 public class QueriedStorageController<T> extends PersistentStorage<T>
 {
     /**
-     * Initialize the Selected queried Persistent Storage Method
+     * Initializes the Selected Queried Persistent Storage Method
      *
      * @return A boolean of whether the operation completed successfully or failed
      */
@@ -23,7 +23,7 @@ public class QueriedStorageController<T> extends PersistentStorage<T>
     }
 
     /**
-     * Initialize the Selected queried Persistent Storage Method with Properties
+     * Initializes the Selected Queried Persistent Storage Method with Properties
      *
      * @param properties    The Properties object to pass in
      * @see                 Properties
@@ -37,7 +37,7 @@ public class QueriedStorageController<T> extends PersistentStorage<T>
     }
 
     /**
-     * Set a value
+     * Sets a value
      *
      * @param query The query
      * @param value The value to set the object as
@@ -49,7 +49,7 @@ public class QueriedStorageController<T> extends PersistentStorage<T>
     }
 
     /**
-     * Get a value
+     * Gets a value
      *
      * @param query The query
      * @param <B>   The type to parse the value as
@@ -74,7 +74,7 @@ public class QueriedStorageController<T> extends PersistentStorage<T>
     }
 
     /**
-     * Push an item into an array
+     * Pushes an item into an array
      *
      * @param query The query selecting an array
      * @param item  The item being pushed into the array
@@ -86,7 +86,7 @@ public class QueriedStorageController<T> extends PersistentStorage<T>
     }
 
     /**
-     * Remove an item from an array by its index
+     * Removes an item from an array by its index
      *
      * @param query The query selecting an array
      * @param index The index of the item that needs to be removed

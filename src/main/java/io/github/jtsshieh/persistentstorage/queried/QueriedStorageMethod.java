@@ -11,7 +11,7 @@ import io.github.jtsshieh.persistentstorage.StorageMethod;
 public interface QueriedStorageMethod<T> extends StorageMethod<T>
 {
     /**
-     * Initialize the queried storage method with properties
+     * Initializes the queried storage method with properties
      *
      * @param properties    The Properties object to pass in
      * @see                 Properties
@@ -19,7 +19,7 @@ public interface QueriedStorageMethod<T> extends StorageMethod<T>
     void initialize(Properties properties);
 
     /**
-     * Set a value
+     * Sets a value
      *
      * @param query The query
      * @param value The value as a B
@@ -28,7 +28,7 @@ public interface QueriedStorageMethod<T> extends StorageMethod<T>
     <B> void setValue(String query, B value);
 
     /**
-     * Get a value
+     * Gets a value
      * @param query The query
      * @param <B>   They type to parse the value as
      * @return      The value as a B
@@ -46,7 +46,7 @@ public interface QueriedStorageMethod<T> extends StorageMethod<T>
     <B> void insertArray(String query, B item, int index);
 
     /**
-     * Push an item into an array
+     * Pushes an item into an array
      * @param query The query selecting an array
      * @param item  The item being pushed into the array
      * @param <B>   The type of the value being set
@@ -54,14 +54,14 @@ public interface QueriedStorageMethod<T> extends StorageMethod<T>
     <B> void pushArray(String query, B item);
 
     /**
-     * Remove an item from an array by its index
+     * Removes an item from an array by its index
      * @param query The query selecting an array
      * @param index The index of the item that needs to be removed
      */
     void removeAtArray(String query, int index);
 
     /**
-     * Remove an item from an array
+     * Removes an item from an array
      * @param query The query selecting an array
      * @param item  The item that needs to be removed
      * @param <B>   The type of the value being set

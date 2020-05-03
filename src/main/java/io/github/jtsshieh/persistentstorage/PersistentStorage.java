@@ -11,7 +11,7 @@ import java.util.List;
 public class PersistentStorage<T>
 {
     /**
-     * List of Storage Methods
+     * The list of Storage Methods
      */
     public List<StorageMethod<T>> StorageMethods = new ArrayList<>();
 
@@ -21,7 +21,7 @@ public class PersistentStorage<T>
     public StorageMethod<T> StorageMethod;
 
     /**
-     * Initialize a new Persistent Storage Controller
+     * Initializes a new Persistent Storage Controller
      *
      * @param storageMethods An array of storage methods to add
      */
@@ -31,9 +31,9 @@ public class PersistentStorage<T>
     }
 
     /**
-     * Add a storage method
+     * Adds a storage method to the storage method list
      *
-     * @param storageMethod The Storage Method to add
+     * @param storageMethod The storage method to add
      */
     public void addStorageMethod(StorageMethod<T> storageMethod)
     {
@@ -42,7 +42,7 @@ public class PersistentStorage<T>
 
     /**
      * Selects a storage method by its instance, if it exists
-     * @param storageMethod The Storage Method instance to select
+     * @param storageMethod The storage method instance to select
      */
     public void selectStorageMethod(StorageMethod<T> storageMethod)
     {
@@ -51,7 +51,7 @@ public class PersistentStorage<T>
 
     /**
      * Selects a storage method by its name, if it exists
-     * @param storageMethodName The Name of the Storage Method to select
+     * @param storageMethodName The name of the storage method to select
      */
     public void selectStorageMethod(String storageMethodName)
     {
