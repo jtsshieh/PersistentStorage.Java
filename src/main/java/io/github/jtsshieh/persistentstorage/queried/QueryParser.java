@@ -5,8 +5,23 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * A parser to parse queried
+ */
 public class QueryParser
 {
+    /**
+     * Parse a query and then get/add/insert an item
+     *
+     * @param query         The query
+     * @param rootObject    The object to search/perform the operation on
+     * @param value         The value to set
+     * @param index         The index, if adding to an array -> -1, if pushing to an array -> -2
+     * @param <T>           The type to parse the result as or the type of the value being set
+     * @return              The object with updates performed/the object that was being searched for
+     * @throws NoSuchFieldException     One of the fields in the query doesn't exist in the object
+     * @throws IllegalAccessException   The class cannot be accessed
+     */
     static <T> Object parseQuery(String query, Object rootObject, T value, int index) throws NoSuchFieldException, IllegalAccessException
     {
         // Split the query into parts
@@ -104,26 +119,81 @@ public class QueryParser
         return currentObject;
     }
 
+    /**
+     * Get a value that is filtered using a query
+     *
+     * @param query         The query
+     * @param rootObject    The object to search for the result in
+     * @param <T>           The type to parse the result as
+     * @return              The value the query yielded, parsed into the type specified in T
+     * @throws NoSuchFieldException     One of the fields in the query doesn't exist in the object
+     * @throws IllegalAccessException   The class cannot be accessed
+     */
     public static <T> T getValue(String query, Object rootObject) throws NoSuchFieldException, IllegalAccessException
     {
         return (T) parseQuery(query, rootObject, null, -1);
     }
 
+    /**
+     * Set a value that is filtered using a query
+     *
+     * @param query         The query
+     * @param rootObject    The object to set the value on
+     * @param value         The value to set
+     * @param <T>           The type of the value that is being set
+     * @return              The object with the value set
+     * @throws NoSuchFieldException     One of the fields in the query doesn't exist in the object
+     * @throws IllegalAccessException   The class cannot be accessed
+     */
     public static <T> Object setValue(String query, Object rootObject, T value) throws NoSuchFieldException, IllegalAccessException
     {
         return parseQuery(query, rootObject, value, -1);
     }
 
+    /**
+     * Inserts an item into an array
+     *
+     * @param query         The query selecting an array
+     * @param rootObject    The object to set the value on
+     * @param item          The item being inserted into the array
+     * @param index         The index to insert the item into
+     * @param <T>           The type of the value being set
+     * @return              The object with the item inserted
+     * @throws NoSuchFieldException     One of the fields in the query doesn't exist in the object
+     * @throws IllegalAccessException   The class cannot be accessed
+     */
     public static <T> Object insertArray(String query, Object rootObject, T item, int index)throws NoSuchFieldException, IllegalAccessException
     {
         return parseQuery(query, rootObject, item, index);
     }
 
+    /**
+     * Push an item into an array
+     *
+     * @param query         The query selecting an array
+     * @param rootObject    The object to set the value on
+     * @param item          The item being pushed into the array
+     * @param <T>           The type of the value being set
+     * @return              The object with the item pushed
+     * @throws NoSuchFieldException     One of the fields in the query doesn't exist in the object
+     * @throws IllegalAccessException   The class cannot be accessed
+     */
     public static <T> Object pushArray(String query, Object rootObject, T item) throws NoSuchFieldException, IllegalAccessException
     {
         return parseQuery(query, rootObject, item, -2);
     }
 
+    /**
+     * Remove an item from an array by its index
+     *
+     * @param query         The query selecting an array
+     * @param rootObject    The object to remove the value on
+     * @param index         The index of the item that needs to be removed
+     * @param <T>           The type of the value being removed
+     * @return              The object with the item removed
+     * @throws NoSuchFieldException     One of the fields in the query doesn't exist in the object
+     * @throws IllegalAccessException   The class cannot be accessed
+     */
     public static <T> Object removeAtArray(String query, Object rootObject, int index) throws NoSuchFieldException, IllegalAccessException
     {
         List<T> list = QueryParser.getValue(query, rootObject);
@@ -131,6 +201,17 @@ public class QueryParser
         return setValue(query, rootObject, list);
     }
 
+    /**
+     * Remove an item from an array
+     *
+     * @param query         The query selecting an array
+     * @param rootObject    The object to remove the value on
+     * @param item          The item that needs to be removed
+     * @param <T>           The type of the value being removed
+     * @return              The object with the item removed
+     * @throws NoSuchFieldException     One of the fields in the query doesn't exist in the object
+     * @throws IllegalAccessException   The class cannot be accessed
+     */
     public static <T> Object removeArray(String query, Object rootObject, T item) throws NoSuchFieldException, IllegalAccessException
     {
         List<T> list = QueryParser.getValue(query, rootObject);

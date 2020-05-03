@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'jtsshieh.github.io'
+group 'io.github.jtsshieh'
 version '1.0-SNAPSHOT'
 
 repositories {
