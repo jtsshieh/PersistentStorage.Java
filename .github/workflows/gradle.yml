@@ -1,38 +1,30 @@
-# This workflow will build a Java project with Gradle
-# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
-
-name: CI Build then deploy to DocFX
+name: Build Project
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+      - dev
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
+      - dev
 
 jobs:
   build:
-
+    
     runs-on: ubuntu-latest
-
+    
     steps:
     - uses: actions/checkout@v2
+      
     - name: Setup Java JDK
       uses: actions/setup-java@v1.3.0
       with:
-        # The Java version to make available on the path. Takes a whole or semver Java version, or 1.x syntax (e.g. 1.8 => Java 8.x)
         java-version: 12
+  
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
+   
     - name: Build with Gradle
       run: ./gradlew build
-    - name: Generate DocFX readable Javadoc
-      run: javadoc -encoding UTF-8 -docletpath ./libs/docfx-doclet-1.0-SNAPSHOT-jar-with-dependencies.jar -doclet com.microsoft.doclet.DocFxDoclet -sourcepath ./src/main/java -outputpath ./docs/api -subpackages io.github.jtsshieh.persistentstorage:io.github.jtsshieh.persistentstorage.cached:io.github.jtsshieh.persistentstorage.queried
-    - uses: nikeee/docfx-action@master
-      name: Build Documentation
-    - name: Publish Documentation to GitHub Pages
-      uses: crazy-max/ghaction-github-pages@v1
-      with:
-        target_branch: gh-pages
-        build_dir: docs/_site
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
