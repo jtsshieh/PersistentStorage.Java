@@ -15,3 +15,13 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 docs
+
+###############
+#    folder   #
+###############
+/**/DROP/
+/**/TEMP/
+/**/packages/
+/**/bin/
+/**/obj/
+_site

@@ -64,7 +64,7 @@ public class CachedStorageController<T> extends PersistentStorage<T>
     }
 
     /**
-     * Saves and Update the Cache
+     * Saves and Updates the Cache
      */
     public void SaveUpdate()
     {
