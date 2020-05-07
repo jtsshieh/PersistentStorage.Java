@@ -26,13 +26,13 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Generate DocFX readable Javadoc
-      run: javadoc -encoding UTF-8 -docletpath ./libs/docfx-doclet-1.0-SNAPSHOT-jar-with-dependencies.jar -doclet com.microsoft.doclet.DocFxDoclet -sourcepath ./src/main/java -outputpath ./api -subpackages io.github.jtsshieh.persistentstorage:io.github.jtsshieh.persistentstorage.cached:io.github.jtsshieh.persistentstorage.queried
+      run: javadoc -encoding UTF-8 -docletpath ./libs/docfx-doclet-1.0-SNAPSHOT-jar-with-dependencies.jar -doclet com.microsoft.doclet.DocFxDoclet -sourcepath ./src/main/java -outputpath ./docs/api -subpackages io.github.jtsshieh.persistentstorage:io.github.jtsshieh.persistentstorage.cached:io.github.jtsshieh.persistentstorage.queried
     - uses: nikeee/docfx-action@master
       name: Build Documentation
     - name: Publish Documentation to GitHub Pages
       uses: crazy-max/ghaction-github-pages@v1
       with:
         target_branch: gh-pages
-        build_dir: _site
+        build_dir: docs/_site
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
