@@ -3,11 +3,9 @@ name: Deploy Documentation
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
-  build:
+  docfx:
 
     runs-on: ubuntu-latest
 
