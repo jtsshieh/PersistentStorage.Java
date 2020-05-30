@@ -1,0 +1,544 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: io.github.jtsshieh.persistentstorage
+  name: io.github.jtsshieh.persistentstorage
+  href: api/io.github.jtsshieh.persistentstorage.html
+  fullName: io.github.jtsshieh.persistentstorage
+  nameWithType: io.github.jtsshieh.persistentstorage
+- uid: io.github.jtsshieh.persistentstorage.cached
+  name: io.github.jtsshieh.persistentstorage.cached
+  href: api/io.github.jtsshieh.persistentstorage.cached.html
+  fullName: io.github.jtsshieh.persistentstorage.cached
+  nameWithType: io.github.jtsshieh.persistentstorage.cached
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController
+  name: CachedStorageController<T>
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>
+  nameWithType: CachedStorageController<T>
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController.CachedStorageController()
+  name: CachedStorageController()
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageController_CachedStorageController__
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>.CachedStorageController()
+  nameWithType: CachedStorageController<T>.CachedStorageController()
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController.CachedStorageController*
+  name: CachedStorageController
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageController_CachedStorageController_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>.CachedStorageController
+  nameWithType: CachedStorageController<T>.CachedStorageController
+  package: io.github.jtsshieh.persistentstorage.cached
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController.currentCache
+  name: currentCache
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageController_currentCache
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>.currentCache
+  nameWithType: CachedStorageController<T>.currentCache
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController.initialize()
+  name: initialize()
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageController_initialize__
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>.initialize()
+  nameWithType: CachedStorageController<T>.initialize()
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController.initialize(io.github.jtsshieh.persistentstorage.Properties)
+  name: initialize(Properties properties)
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageController_initialize_io_github_jtsshieh_persistentstorage_Properties_
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>.initialize(Properties properties)
+  nameWithType: CachedStorageController<T>.initialize(Properties properties)
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController.initialize*
+  name: initialize
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageController_initialize_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>.initialize
+  nameWithType: CachedStorageController<T>.initialize
+  package: io.github.jtsshieh.persistentstorage.cached
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController.saveState()
+  name: saveState()
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageController_saveState__
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>.saveState()
+  nameWithType: CachedStorageController<T>.saveState()
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController.saveState*
+  name: saveState
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageController_saveState_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>.saveState
+  nameWithType: CachedStorageController<T>.saveState
+  package: io.github.jtsshieh.persistentstorage.cached
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController.SaveUpdate()
+  name: SaveUpdate()
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageController_SaveUpdate__
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>.SaveUpdate()
+  nameWithType: CachedStorageController<T>.SaveUpdate()
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController.SaveUpdate*
+  name: SaveUpdate
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageController_SaveUpdate_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>.SaveUpdate
+  nameWithType: CachedStorageController<T>.SaveUpdate
+  package: io.github.jtsshieh.persistentstorage.cached
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController.updateCache()
+  name: updateCache()
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageController_updateCache__
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>.updateCache()
+  nameWithType: CachedStorageController<T>.updateCache()
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageController.updateCache*
+  name: updateCache
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageController.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageController_updateCache_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageController<T>.updateCache
+  nameWithType: CachedStorageController<T>.updateCache
+  package: io.github.jtsshieh.persistentstorage.cached
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod
+  name: CachedStorageMethod<T>
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.html
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod<T>
+  nameWithType: CachedStorageMethod<T>
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.getCache()
+  name: getCache()
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageMethod_getCache__
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod<T>.getCache()
+  nameWithType: CachedStorageMethod<T>.getCache()
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.getCache*
+  name: getCache
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageMethod_getCache_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod<T>.getCache
+  nameWithType: CachedStorageMethod<T>.getCache
+  package: io.github.jtsshieh.persistentstorage.cached
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.initialize(io.github.jtsshieh.persistentstorage.Properties)
+  name: initialize(Properties properties)
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageMethod_initialize_io_github_jtsshieh_persistentstorage_Properties_
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod<T>.initialize(Properties properties)
+  nameWithType: CachedStorageMethod<T>.initialize(Properties properties)
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.initialize*
+  name: initialize
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageMethod_initialize_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod<T>.initialize
+  nameWithType: CachedStorageMethod<T>.initialize
+  package: io.github.jtsshieh.persistentstorage.cached
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.saveState()
+  name: saveState()
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageMethod_saveState__
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod<T>.saveState()
+  nameWithType: CachedStorageMethod<T>.saveState()
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.saveState*
+  name: saveState
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageMethod_saveState_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod<T>.saveState
+  nameWithType: CachedStorageMethod<T>.saveState
+  package: io.github.jtsshieh.persistentstorage.cached
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.setCache(T)
+  name: setCache(T cacheObject)
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageMethod_setCache_T_
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod<T>.setCache(T cacheObject)
+  nameWithType: CachedStorageMethod<T>.setCache(T cacheObject)
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.setCache*
+  name: setCache
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageMethod_setCache_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod<T>.setCache
+  nameWithType: CachedStorageMethod<T>.setCache
+  package: io.github.jtsshieh.persistentstorage.cached
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.updateCache()
+  name: updateCache()
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageMethod_updateCache__
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod<T>.updateCache()
+  nameWithType: CachedStorageMethod<T>.updateCache()
+- uid: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.updateCache*
+  name: updateCache
+  href: api/io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod.html#io_github_jtsshieh_persistentstorage_cached_CachedStorageMethod_updateCache_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.cached.CachedStorageMethod<T>.updateCache
+  nameWithType: CachedStorageMethod<T>.updateCache
+  package: io.github.jtsshieh.persistentstorage.cached
+- uid: io.github.jtsshieh.persistentstorage.PersistentStorage
+  name: PersistentStorage<T>
+  href: api/io.github.jtsshieh.persistentstorage.PersistentStorage.html
+  fullName: io.github.jtsshieh.persistentstorage.PersistentStorage<T>
+  nameWithType: PersistentStorage<T>
+- uid: io.github.jtsshieh.persistentstorage.PersistentStorage.addStorageMethod(io.github.jtsshieh.persistentstorage.StorageMethod<T>)
+  name: addStorageMethod(StorageMethod<T> storageMethod)
+  href: api/io.github.jtsshieh.persistentstorage.PersistentStorage.html#io_github_jtsshieh_persistentstorage_PersistentStorage_addStorageMethod_io_github_jtsshieh_persistentstorage_StorageMethod_T__
+  fullName: io.github.jtsshieh.persistentstorage.PersistentStorage<T>.addStorageMethod(StorageMethod<T> storageMethod)
+  nameWithType: PersistentStorage<T>.addStorageMethod(StorageMethod<T> storageMethod)
+- uid: io.github.jtsshieh.persistentstorage.PersistentStorage.addStorageMethod*
+  name: addStorageMethod
+  href: api/io.github.jtsshieh.persistentstorage.PersistentStorage.html#io_github_jtsshieh_persistentstorage_PersistentStorage_addStorageMethod_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.PersistentStorage<T>.addStorageMethod
+  nameWithType: PersistentStorage<T>.addStorageMethod
+  package: io.github.jtsshieh.persistentstorage
+- uid: io.github.jtsshieh.persistentstorage.PersistentStorage.PersistentStorage(io.github.jtsshieh.persistentstorage.StorageMethod<T>...)
+  name: PersistentStorage(StorageMethod<T>[] storageMethods)
+  href: api/io.github.jtsshieh.persistentstorage.PersistentStorage.html#io_github_jtsshieh_persistentstorage_PersistentStorage_PersistentStorage_io_github_jtsshieh_persistentstorage_StorageMethod_T_____
+  fullName: io.github.jtsshieh.persistentstorage.PersistentStorage<T>.PersistentStorage(StorageMethod<T>[] storageMethods)
+  nameWithType: PersistentStorage<T>.PersistentStorage(StorageMethod<T>[] storageMethods)
+- uid: io.github.jtsshieh.persistentstorage.PersistentStorage.PersistentStorage*
+  name: PersistentStorage
+  href: api/io.github.jtsshieh.persistentstorage.PersistentStorage.html#io_github_jtsshieh_persistentstorage_PersistentStorage_PersistentStorage_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.PersistentStorage<T>.PersistentStorage
+  nameWithType: PersistentStorage<T>.PersistentStorage
+  package: io.github.jtsshieh.persistentstorage
+- uid: io.github.jtsshieh.persistentstorage.PersistentStorage.selectStorageMethod(io.github.jtsshieh.persistentstorage.StorageMethod<T>)
+  name: selectStorageMethod(StorageMethod<T> storageMethod)
+  href: api/io.github.jtsshieh.persistentstorage.PersistentStorage.html#io_github_jtsshieh_persistentstorage_PersistentStorage_selectStorageMethod_io_github_jtsshieh_persistentstorage_StorageMethod_T__
+  fullName: io.github.jtsshieh.persistentstorage.PersistentStorage<T>.selectStorageMethod(StorageMethod<T> storageMethod)
+  nameWithType: PersistentStorage<T>.selectStorageMethod(StorageMethod<T> storageMethod)
+- uid: io.github.jtsshieh.persistentstorage.PersistentStorage.selectStorageMethod(java.lang.String)
+  name: selectStorageMethod(String storageMethodName)
+  href: api/io.github.jtsshieh.persistentstorage.PersistentStorage.html#io_github_jtsshieh_persistentstorage_PersistentStorage_selectStorageMethod_java_lang_String_
+  fullName: io.github.jtsshieh.persistentstorage.PersistentStorage<T>.selectStorageMethod(String storageMethodName)
+  nameWithType: PersistentStorage<T>.selectStorageMethod(String storageMethodName)
+- uid: io.github.jtsshieh.persistentstorage.PersistentStorage.selectStorageMethod*
+  name: selectStorageMethod
+  href: api/io.github.jtsshieh.persistentstorage.PersistentStorage.html#io_github_jtsshieh_persistentstorage_PersistentStorage_selectStorageMethod_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.PersistentStorage<T>.selectStorageMethod
+  nameWithType: PersistentStorage<T>.selectStorageMethod
+  package: io.github.jtsshieh.persistentstorage
+- uid: io.github.jtsshieh.persistentstorage.PersistentStorage.StorageMethod
+  name: StorageMethod
+  href: api/io.github.jtsshieh.persistentstorage.PersistentStorage.html#io_github_jtsshieh_persistentstorage_PersistentStorage_StorageMethod
+  fullName: io.github.jtsshieh.persistentstorage.PersistentStorage<T>.StorageMethod
+  nameWithType: PersistentStorage<T>.StorageMethod
+- uid: io.github.jtsshieh.persistentstorage.PersistentStorage.StorageMethods
+  name: StorageMethods
+  href: api/io.github.jtsshieh.persistentstorage.PersistentStorage.html#io_github_jtsshieh_persistentstorage_PersistentStorage_StorageMethods
+  fullName: io.github.jtsshieh.persistentstorage.PersistentStorage<T>.StorageMethods
+  nameWithType: PersistentStorage<T>.StorageMethods
+- uid: io.github.jtsshieh.persistentstorage.Properties
+  name: Properties
+  href: api/io.github.jtsshieh.persistentstorage.Properties.html
+  fullName: io.github.jtsshieh.persistentstorage.Properties
+  nameWithType: Properties
+- uid: io.github.jtsshieh.persistentstorage.queried
+  name: io.github.jtsshieh.persistentstorage.queried
+  href: api/io.github.jtsshieh.persistentstorage.queried.html
+  fullName: io.github.jtsshieh.persistentstorage.queried
+  nameWithType: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController
+  name: QueriedStorageController<T>
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>
+  nameWithType: QueriedStorageController<T>
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.<B>getValue(java.lang.String)
+  name: <B>getValue(String query)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController__B_getValue_java_lang_String_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.<B>getValue(String query)
+  nameWithType: QueriedStorageController<T>.<B>getValue(String query)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.<B>insertArray(java.lang.String,B,int)
+  name: <B>insertArray(String query, B item, int index)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController__B_insertArray_java_lang_String_B_int_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.<B>insertArray(String query, B item, int index)
+  nameWithType: QueriedStorageController<T>.<B>insertArray(String query, B item, int index)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.<B>pushArray(java.lang.String,B)
+  name: <B>pushArray(String query, B item)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController__B_pushArray_java_lang_String_B_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.<B>pushArray(String query, B item)
+  nameWithType: QueriedStorageController<T>.<B>pushArray(String query, B item)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.<B>removeArray(java.lang.String,B)
+  name: <B>removeArray(String query, B item)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController__B_removeArray_java_lang_String_B_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.<B>removeArray(String query, B item)
+  nameWithType: QueriedStorageController<T>.<B>removeArray(String query, B item)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.<B>setValue(java.lang.String,B)
+  name: <B>setValue(String query, B value)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController__B_setValue_java_lang_String_B_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.<B>setValue(String query, B value)
+  nameWithType: QueriedStorageController<T>.<B>setValue(String query, B value)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.getValue*
+  name: <B>getValue
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController_getValue_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.<B>getValue
+  nameWithType: QueriedStorageController<T>.<B>getValue
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.initialize()
+  name: initialize()
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController_initialize__
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.initialize()
+  nameWithType: QueriedStorageController<T>.initialize()
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.initialize(io.github.jtsshieh.persistentstorage.Properties)
+  name: initialize(Properties properties)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController_initialize_io_github_jtsshieh_persistentstorage_Properties_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.initialize(Properties properties)
+  nameWithType: QueriedStorageController<T>.initialize(Properties properties)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.initialize*
+  name: initialize
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController_initialize_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.initialize
+  nameWithType: QueriedStorageController<T>.initialize
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.insertArray*
+  name: <B>insertArray
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController_insertArray_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.<B>insertArray
+  nameWithType: QueriedStorageController<T>.<B>insertArray
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.pushArray*
+  name: <B>pushArray
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController_pushArray_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.<B>pushArray
+  nameWithType: QueriedStorageController<T>.<B>pushArray
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.QueriedStorageController()
+  name: QueriedStorageController()
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController_QueriedStorageController__
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.QueriedStorageController()
+  nameWithType: QueriedStorageController<T>.QueriedStorageController()
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.QueriedStorageController*
+  name: QueriedStorageController
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController_QueriedStorageController_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.QueriedStorageController
+  nameWithType: QueriedStorageController<T>.QueriedStorageController
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.removeArray*
+  name: <B>removeArray
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController_removeArray_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.<B>removeArray
+  nameWithType: QueriedStorageController<T>.<B>removeArray
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.removeAtArray(java.lang.String,int)
+  name: removeAtArray(String query, int index)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController_removeAtArray_java_lang_String_int_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.removeAtArray(String query, int index)
+  nameWithType: QueriedStorageController<T>.removeAtArray(String query, int index)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.removeAtArray*
+  name: removeAtArray
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController_removeAtArray_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.removeAtArray
+  nameWithType: QueriedStorageController<T>.removeAtArray
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.setValue*
+  name: <B>setValue
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageController.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageController_setValue_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageController<T>.<B>setValue
+  nameWithType: QueriedStorageController<T>.<B>setValue
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod
+  name: QueriedStorageMethod<T>
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>
+  nameWithType: QueriedStorageMethod<T>
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.<B>getValue(java.lang.String)
+  name: <B>getValue(String query)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod__B_getValue_java_lang_String_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.<B>getValue(String query)
+  nameWithType: QueriedStorageMethod<T>.<B>getValue(String query)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.<B>insertArray(java.lang.String,B,int)
+  name: <B>insertArray(String query, B item, int index)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod__B_insertArray_java_lang_String_B_int_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.<B>insertArray(String query, B item, int index)
+  nameWithType: QueriedStorageMethod<T>.<B>insertArray(String query, B item, int index)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.<B>pushArray(java.lang.String,B)
+  name: <B>pushArray(String query, B item)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod__B_pushArray_java_lang_String_B_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.<B>pushArray(String query, B item)
+  nameWithType: QueriedStorageMethod<T>.<B>pushArray(String query, B item)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.<B>removeArray(java.lang.String,B)
+  name: <B>removeArray(String query, B item)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod__B_removeArray_java_lang_String_B_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.<B>removeArray(String query, B item)
+  nameWithType: QueriedStorageMethod<T>.<B>removeArray(String query, B item)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.<B>setValue(java.lang.String,B)
+  name: <B>setValue(String query, B value)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod__B_setValue_java_lang_String_B_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.<B>setValue(String query, B value)
+  nameWithType: QueriedStorageMethod<T>.<B>setValue(String query, B value)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.getValue*
+  name: <B>getValue
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod_getValue_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.<B>getValue
+  nameWithType: QueriedStorageMethod<T>.<B>getValue
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.initialize(io.github.jtsshieh.persistentstorage.Properties)
+  name: initialize(Properties properties)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod_initialize_io_github_jtsshieh_persistentstorage_Properties_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.initialize(Properties properties)
+  nameWithType: QueriedStorageMethod<T>.initialize(Properties properties)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.initialize*
+  name: initialize
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod_initialize_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.initialize
+  nameWithType: QueriedStorageMethod<T>.initialize
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.insertArray*
+  name: <B>insertArray
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod_insertArray_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.<B>insertArray
+  nameWithType: QueriedStorageMethod<T>.<B>insertArray
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.pushArray*
+  name: <B>pushArray
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod_pushArray_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.<B>pushArray
+  nameWithType: QueriedStorageMethod<T>.<B>pushArray
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.removeArray*
+  name: <B>removeArray
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod_removeArray_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.<B>removeArray
+  nameWithType: QueriedStorageMethod<T>.<B>removeArray
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.removeAtArray(java.lang.String,int)
+  name: removeAtArray(String query, int index)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod_removeAtArray_java_lang_String_int_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.removeAtArray(String query, int index)
+  nameWithType: QueriedStorageMethod<T>.removeAtArray(String query, int index)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.removeAtArray*
+  name: removeAtArray
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod_removeAtArray_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.removeAtArray
+  nameWithType: QueriedStorageMethod<T>.removeAtArray
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.setValue*
+  name: <B>setValue
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod.html#io_github_jtsshieh_persistentstorage_queried_QueriedStorageMethod_setValue_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueriedStorageMethod<T>.<B>setValue
+  nameWithType: QueriedStorageMethod<T>.<B>setValue
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser
+  name: QueryParser
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser
+  nameWithType: QueryParser
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>getValue(java.lang.String,java.lang.Object)
+  name: <T>getValue(String query, Object rootObject)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser__T_getValue_java_lang_String_java_lang_Object_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>getValue(String query, Object rootObject)
+  nameWithType: QueryParser.<T>getValue(String query, Object rootObject)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>insertArray(java.lang.String,java.lang.Object,T,int)
+  name: <T>insertArray(String query, Object rootObject, T item, int index)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser__T_insertArray_java_lang_String_java_lang_Object_T_int_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>insertArray(String query, Object rootObject, T item, int index)
+  nameWithType: QueryParser.<T>insertArray(String query, Object rootObject, T item, int index)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>parseQuery(java.lang.String,java.lang.Object,T,int)
+  name: <T>parseQuery(String query, Object rootObject, T value, int index)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser__T_parseQuery_java_lang_String_java_lang_Object_T_int_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>parseQuery(String query, Object rootObject, T value, int index)
+  nameWithType: QueryParser.<T>parseQuery(String query, Object rootObject, T value, int index)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>pushArray(java.lang.String,java.lang.Object,T)
+  name: <T>pushArray(String query, Object rootObject, T item)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser__T_pushArray_java_lang_String_java_lang_Object_T_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>pushArray(String query, Object rootObject, T item)
+  nameWithType: QueryParser.<T>pushArray(String query, Object rootObject, T item)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>removeArray(java.lang.String,java.lang.Object,T)
+  name: <T>removeArray(String query, Object rootObject, T item)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser__T_removeArray_java_lang_String_java_lang_Object_T_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>removeArray(String query, Object rootObject, T item)
+  nameWithType: QueryParser.<T>removeArray(String query, Object rootObject, T item)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>removeAtArray(java.lang.String,java.lang.Object,int)
+  name: <T>removeAtArray(String query, Object rootObject, int index)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser__T_removeAtArray_java_lang_String_java_lang_Object_int_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>removeAtArray(String query, Object rootObject, int index)
+  nameWithType: QueryParser.<T>removeAtArray(String query, Object rootObject, int index)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>setValue(java.lang.String,java.lang.Object,T)
+  name: <T>setValue(String query, Object rootObject, T value)
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser__T_setValue_java_lang_String_java_lang_Object_T_
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>setValue(String query, Object rootObject, T value)
+  nameWithType: QueryParser.<T>setValue(String query, Object rootObject, T value)
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.getValue*
+  name: <T>getValue
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser_getValue_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>getValue
+  nameWithType: QueryParser.<T>getValue
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.insertArray*
+  name: <T>insertArray
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser_insertArray_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>insertArray
+  nameWithType: QueryParser.<T>insertArray
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.parseQuery*
+  name: <T>parseQuery
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser_parseQuery_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>parseQuery
+  nameWithType: QueryParser.<T>parseQuery
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.pushArray*
+  name: <T>pushArray
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser_pushArray_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>pushArray
+  nameWithType: QueryParser.<T>pushArray
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.QueryParser()
+  name: QueryParser()
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser_QueryParser__
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.QueryParser()
+  nameWithType: QueryParser.QueryParser()
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.QueryParser*
+  name: QueryParser
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser_QueryParser_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.QueryParser
+  nameWithType: QueryParser.QueryParser
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.removeArray*
+  name: <T>removeArray
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser_removeArray_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>removeArray
+  nameWithType: QueryParser.<T>removeArray
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.removeAtArray*
+  name: <T>removeAtArray
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser_removeAtArray_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>removeAtArray
+  nameWithType: QueryParser.<T>removeAtArray
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.queried.QueryParser.setValue*
+  name: <T>setValue
+  href: api/io.github.jtsshieh.persistentstorage.queried.QueryParser.html#io_github_jtsshieh_persistentstorage_queried_QueryParser_setValue_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.queried.QueryParser.<T>setValue
+  nameWithType: QueryParser.<T>setValue
+  package: io.github.jtsshieh.persistentstorage.queried
+- uid: io.github.jtsshieh.persistentstorage.StorageMethod
+  name: StorageMethod<T>
+  href: api/io.github.jtsshieh.persistentstorage.StorageMethod.html
+  fullName: io.github.jtsshieh.persistentstorage.StorageMethod<T>
+  nameWithType: StorageMethod<T>
+- uid: io.github.jtsshieh.persistentstorage.StorageMethod.getName()
+  name: getName()
+  href: api/io.github.jtsshieh.persistentstorage.StorageMethod.html#io_github_jtsshieh_persistentstorage_StorageMethod_getName__
+  fullName: io.github.jtsshieh.persistentstorage.StorageMethod<T>.getName()
+  nameWithType: StorageMethod<T>.getName()
+- uid: io.github.jtsshieh.persistentstorage.StorageMethod.getName*
+  name: getName
+  href: api/io.github.jtsshieh.persistentstorage.StorageMethod.html#io_github_jtsshieh_persistentstorage_StorageMethod_getName_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.StorageMethod<T>.getName
+  nameWithType: StorageMethod<T>.getName
+  package: io.github.jtsshieh.persistentstorage
+- uid: io.github.jtsshieh.persistentstorage.StorageMethod.initialize()
+  name: initialize()
+  href: api/io.github.jtsshieh.persistentstorage.StorageMethod.html#io_github_jtsshieh_persistentstorage_StorageMethod_initialize__
+  fullName: io.github.jtsshieh.persistentstorage.StorageMethod<T>.initialize()
+  nameWithType: StorageMethod<T>.initialize()
+- uid: io.github.jtsshieh.persistentstorage.StorageMethod.initialize*
+  name: initialize
+  href: api/io.github.jtsshieh.persistentstorage.StorageMethod.html#io_github_jtsshieh_persistentstorage_StorageMethod_initialize_
+  isSpec: "True"
+  fullName: io.github.jtsshieh.persistentstorage.StorageMethod<T>.initialize
+  nameWithType: StorageMethod<T>.initialize
+  package: io.github.jtsshieh.persistentstorage
